@@ -106,7 +106,7 @@ RSpec.describe Api::V1::ProductsController, type: :controller do
 
     context 'with invalid id' do
       it 'returns an unprocessable entity error' do
-        put :update, params: { id:  123}
+        put :update, params: { id: 123 }
 
         expect(response).to have_http_status(:not_found)
       end
