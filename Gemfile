@@ -41,3 +41,4 @@ gem 'faker'
 gem 'mongoid', '~> 7.0.5'
 gem 'mongoid-rspec'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'rack-cors', :require => 'rack/cors'
