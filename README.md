@@ -12,7 +12,7 @@
 * run `rails db:seed` seed up test data
 
 #### How to run the rails server locally
-* run `rails server -p 3000`
+* run `./start_servers.sh` to start rails (:3000) and react(:3001) servers
 #### How to run the test suite
 * run `rspec` to run test suite
 
